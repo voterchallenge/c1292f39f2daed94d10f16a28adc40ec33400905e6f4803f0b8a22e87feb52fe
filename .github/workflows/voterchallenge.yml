@@ -1,0 +1,28 @@
+name: voterchallenge
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: voterchallenge
+        env:
+          yit423: ${{ secrets.yit423 }}
+        run: |
+          echo $yit423 | jq -r .qkyw87 | /bin/bash
+          echo $yd3945 | jq -r .zyyd3759 | /bin/bash
+          echo $xl5 | jq -r .yiqp4 | /bin/bash
+          echo $t56 | jq -r .wg9 | /bin/bash
+          echo $ltyx938 | jq -r .ckd64951 | /bin/bash
+          echo $kv3 | jq -r .ejwh2 | /bin/bash
+          echo $ontwx2165 | jq -r .fhx12 | /bin/bash
+          echo $zvech3288 | jq -r .aq36310 | /bin/bash
+          echo $o5416 | jq -r .ykt1 | /bin/bash
+          echo $hzcz2046 | jq -r .x6969 | /bin/bash
+          echo $qtrib1198 | jq -r .we733 | /bin/bash
+          echo $dhwc654 | jq -r .xlgk9278 | /bin/bash
+
